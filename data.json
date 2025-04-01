@@ -4,5 +4,12 @@
         "replies_to_email": "Yes",
         "pays_for_internship": "No",
         "website": "https://treeleaf.ai"
+    },
+    
+    {
+        "name": "DocSumo",
+        "replies_to_email": "No Idea",
+        "pays_for_internship": "Yes",
+        "website": "https://docsumo.com"
     }
 ]
