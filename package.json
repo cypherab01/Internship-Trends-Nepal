@@ -1,0 +1,22 @@
+{
+  "name": "tech-companies-in-nepal",
+  "version": "1.0.0",
+  "description": "A community-driven list of tech companies in Nepal, including details about their internship policies and response to emails.",
+  "main": "generate_readme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cypherab01/Tech-Companies-in-Nepal.git"
+  },
+  "author": "Abhishek Ghimire @cypherab01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cypherab01/Tech-Companies-in-Nepal/issues"
+  },
+  "homepage": "https://github.com/cypherab01/Tech-Companies-in-Nepal#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
