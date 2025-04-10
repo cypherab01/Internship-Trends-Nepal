@@ -19,15 +19,21 @@ jobs:
           node-version: "18"
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          npm install
+          ls -al # List files to ensure it's correct
+          node -v # Check Node.js version
+          npm -v  # Check npm version
 
       - name: Run Script
-        run: node generate_readme.js
+        run: |
+          node generate_readme.js
+          ls -al  # List files to ensure generate_readme.js ran successfully
 
       - name: Commit and Push Changes
         run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add README.md
-        git diff --cached --quiet || git commit -m "Automated update of README.md"
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Automated update of README.md"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
