@@ -1,5 +1,5 @@
 {
-  "name": "tech-companies-in-nepal",
+  "name": "internship-trends-nepal",
   "version": "1.0.0",
   "description": "A community-driven list of tech companies in Nepal, including details about their internship policies and response to emails.",
   "main": "generate_readme.js",
