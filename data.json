@@ -23,5 +23,31 @@
             "Fully Remote"
         ],
         "last_updated": "2024-01-01"
+    },
+
+    {
+        "name": "Nest Nepal",
+        "replies_to_all_email": true,
+        "pays_for_internship": [
+            "Paid"
+        ],
+        "website": "https://nestnepal.com",
+        "location": "Dhobighat, Kathmandu",
+        "tech_stack": [
+            "-"
+        ],
+        "mentorship": [
+            "Partial Mentorship"
+            
+        ],
+        "duration": "3 months",
+        "hiring_possibility": [
+            "Possibly, depending on performance",
+            "Internship-to-Contract"
+        ],
+        "remote_friendly": [
+            "No"
+        ],
+        "last_updated": "2024-01-01"
     }
 ]
