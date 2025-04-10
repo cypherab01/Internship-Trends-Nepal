@@ -42,7 +42,7 @@ Thank you for your interest in contributing to **Internship Trends in Nepal**! T
     "mentorship": ["Full Mentorship", "Partial Mentorship", "No Mentorship"],
     "duration": "Months",  // Example: "3 months"
     "hiring_possibility": ["Possibly, depending on performance", "No hiring possibility", "Hired often"],
-    "remote_friendly": ["Fully Remote", "Hybrid", "No Remote"],
+    "remote_friendly": ["Fully Remote", "Hybrid", "On-site"],
     "last_updated": "YYYY-MM-DD"
   }
   ```
