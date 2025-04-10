@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "name": "Treeleaf Technologies",
         "replies_to_email": "Yes",
         "pays_for_internship": "No",
@@ -11,5 +12,30 @@
         "replies_to_email": "Yes",
         "pays_for_internship": "Yes",
         "website": "https://docsumo.com"
+=======
+        "name": "AI Company Innovators",
+        "replies_to_all_email": true,
+        "pays_for_internship": [
+            "Paid"
+        ],
+        "website": "https://aiinnovators.com",
+        "location": "Lalitpur, Kathmandu",
+        "tech_stack": [
+            "-"
+        ],
+        "mentorship": [
+            "Full Mentorship",
+            "Project Guidance"
+        ],
+        "duration": "5 months",
+        "hiring_possibility": [
+            "Possibly, depending on performance",
+            "Internship-to-Contract"
+        ],
+        "remote_friendly": [
+            "Fully Remote"
+        ],
+        "last_updated": "2024-01-01"
+>>>>>>> upstream/main
     }
 ]
